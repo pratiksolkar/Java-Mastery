@@ -1,6 +1,7 @@
-// Given number is Palindrome or not
+// Given number is Palindrome or not 
 
 class PalindromeNumber{
+  
   String isPalindrome(int num){
     String strNum = Integer.toString(num);
     int length = strNum.length();
@@ -15,9 +16,11 @@ class PalindromeNumber{
      }
      return "The num "+num+" is Palindrome";
    }
+  
    public static void main( String args[]){
      PalindromeNumber obj = new PalindromeNumber();
      String result = obj.isPalindrome(12321);
      System.out.println(result);
   }
+  
 }
