@@ -17,7 +17,7 @@ class PrimeNum{
       return num+" is not Prime";
     } 
   }
-  public static void main( String args[]){
+  public static void main( String []args){
     PrimeNum obj = new PrimeNum();
     String result = obj.isPrime(11);
     System.out.println(result);
