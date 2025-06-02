@@ -1,4 +1,4 @@
-// sum of the number using recursive method
+// sum of the digits of number using recursive method
 
 class Sum{
 	public static int sumOfDigits(int number){
